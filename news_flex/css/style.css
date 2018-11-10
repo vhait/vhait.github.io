@@ -1,0 +1,157 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	
+}
+
+
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+
+}
+
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: normal;	
+	font-size: 13px;
+	background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
+	
+}
+.flex-container {
+  display: flex;
+  background-color: white;
+  
+ 
+  
+}
+.flex-container .flex-menu {
+
+	display: flex;
+	margin-left: 100px; 
+	flex: 9;
+	justify-content: flex-end;
+	
+	}
+.flex-container .pictire {
+	display: flex;
+	flex: 1;
+	margin: 10px;
+	}
+.flex-container  div {
+	text-transform: uppercase;
+	margin: 5px;
+	padding: 10px;
+	font-size: 16px;
+	
+	
+}
+.flex-container  a{
+	text-decoration:none;
+	color: #00AFEF;
+}
+
+
+.news-wrapper {
+	max-width: 800px;
+	margin: 120px auto;
+	height:100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-weight: bold;
+}
+
+
+h1 {	
+	font-size: 36px;	
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	
+}
+
+article {
+	background: white;
+	width: 360px;	
+	max-height: 130px;
+	border-radius: 4px;
+	float: left;
+	margin: 20px;
+	
+}
+
+article .image-holder {
+	width: 37.22%;
+}
+
+article .content-holder {
+	width: 62.78%;
+	padding: 15px 15px 15px 20px;
+}
+article .content-holder2 {
+	background: url('../img/foto.jpg') no-repeat center;
+	background-size:cover;
+	border-radius: 4px;
+	padding: 30px 15px 22px 20px;
+	
+}
+rticle .content-holder2 p {
+	font-size: 12px;
+	text-align: center;
+}
+
+article .content-holder h3 {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #00AFEF;
+	margin-top: 0px;
+}
+
+article .content-holder p {
+	font-size: 12px;
+	text-align: left;
+}
+
+a.show-more {
+	display: inline-block;
+	margin-top: 10px;
+	color: #3C8204;
+	margin-right: 30px;
+	float:left;
+	
+}
+div i  {
+	display: inline-block;
+	margin-top: 10px;
+	float:right;
+}
+
+
+
+article div {
+	float: left;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+	
+}
+.flex-footer{
+	clear:both;
+	display:flex;
+	background-color:black;
+	padding: 20px;
+	align-items:flex-end;
+	justify-content:center;
+
+	}
+.flex-footer p 	{
+	font-size:14px;
+	color:white;
+	text-transform: uppercase;
+	
+	}
