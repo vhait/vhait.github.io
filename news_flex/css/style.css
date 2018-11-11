@@ -140,6 +140,11 @@ article div {
 	clear: both;
 	
 }
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
 .flex-footer{
 	clear:both;
 	display:flex;
