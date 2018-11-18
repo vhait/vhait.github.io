@@ -37,6 +37,7 @@ element.style{
 	padding: 15px;
 	color:#035D54;
 	text-transform: uppercase;
+	font-weight:bold;
 	border-bottom: 3px solid #035D54;
 
 }
@@ -47,15 +48,36 @@ element.style{
 	
 }
 .box2 {
-	margin:5px; 
+	
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+
+
 }
 
 .pict_icon{
 	height: 100%;
 	width: 100%;
 }
-h2 {
-	color:black;
-	
+.r2 {
+	color:white;
+	background: #035D54;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
 
+
+
+}
+.r3{
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	background: #fff;
+
+
+}
+.text_cont{
+	background: #fff;
+	color: #035D54;
 }
