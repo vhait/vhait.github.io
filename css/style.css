@@ -1,0 +1,61 @@
+body{
+	font-family: 'Cormorant Infant', serif;
+	font-size: 24px;
+	color: black;
+	background: url('../img/c3_2.jpg') no-repeat center;
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+
+.p-0{
+	padding: 0px;	 
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width:50px;
+	height: 50px; 
+}
+
+.header-title {
+	padding: 30px; 
+	font-weight:bold;
+	color: black;
+	margin: 0px;
+	font-size: 50px; 
+	text-transform: uppercase;
+
+}
+
+element.style{
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left: 2rem;
+	padding-right:2rem;
+}
+}
+.r {
+	margin: 50px 0px 50px 0px; 
+	padding: 15px;
+	color:#035D54;
+	text-transform: uppercase;
+	border-bottom: 3px solid #035D54;
+
+}
+.box1 {
+	min-height:200px;
+	vertical-align: middle;
+	padding:30px;
+	
+}
+.box2 {
+	margin:5px; 
+}
+
+.pict_icon{
+	height: 100%;
+	width: 100%;
+}
+h2 {
+	color:black;
+	
+
+}
