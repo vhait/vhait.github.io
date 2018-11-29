@@ -1,6 +1,6 @@
 body{
 	font-family: 'Cormorant Infant', serif;
-	font-size: 24px;
+	font-size: 18px;
 	color: black;
 	background: url('../img/c3_2.jpg') no-repeat center;
 	background-size: 100% 100%;
@@ -14,9 +14,18 @@ body{
 	width:50px;
 	height: 50px; 
 }
+.nav-link{
+	font-size: 1.2em;
+	color: #052bcc;
+	font-weight:bold;
+
+}
+.sait{
+
+}
 
 .header-title {
-	padding: 30px; 
+	padding: 10px; 
 	font-weight:bold;
 	color: black;
 	margin: 0px;
@@ -35,23 +44,27 @@ element.style{
 .r {
 	margin: 50px 0px 50px 0px; 
 	padding: 15px;
-	color:#035D54;
 	text-transform: uppercase;
 	font-weight:bold;
 	border-bottom: 3px solid #035D54;
+	background: #e3f2fd;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
 
 }
 .box1 {
 	min-height:200px;
 	vertical-align: middle;
 	padding:30px;
+	font-size: 1.5em;
 	
 }
-.box2 {
-	
+ .box2 {
+	border-bottom: 3px solid #035D54;
 	border-bottom-left-radius:25px;
 	border-bottom-right-radius:25px;
-
+	background: #e3f2fd;
+	width: 100%;
 
 }
 
@@ -59,14 +72,20 @@ element.style{
 	height: 100%;
 	width: 100%;
 }
-.r2 {
-	color:white;
-	background: #035D54;
-	border-top-left-radius:25px;
+
+	
+h4, h2{
+	color: #035D54;
+	font-weight:bold;
+}
+
+h2{
+	margin-top: 20px;
+	margin-bottom:30px;
+	background: white;
 	border-top-right-radius:25px;
-
-
-
+	border-bottom-left-radius:25px;
+}
 }
 .r3{
 	border-bottom-left-radius:25px;
@@ -80,4 +99,20 @@ element.style{
 .text_cont{
 	background: #fff;
 	color: #035D54;
+	min-height: 200px;
+}
+.img-thumbnail{
+	height: 150px;
+}
+.media {
+	min-height: 200px;
+	vertical-align: middle;
+}
+.row{
+	margin-left: 0px;
+	margin-right: 0px; 
+}
+.mr-t-b-100{
+	margin-top: 30px;
+	margin-bottom:30px; 
 }
